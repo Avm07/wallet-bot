@@ -11,14 +11,6 @@ Wallet-bot is a telegram bot which inform in channel about incoming documents fr
 * nlohman/json
 * openssl
 
-**Mac OSX**
-```
-brew install boost
-brew install mongo-c
-brew install mongo-cxx-driver
-brew install openssl
-```
-
 # Compiling
 
 ```
@@ -41,8 +33,6 @@ make
 * MONGO_DB_PWD
 
 # Running
-
-Run example:
 
 ```
 ./wallet-bot
