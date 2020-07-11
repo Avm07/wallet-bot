@@ -1,0 +1,14 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: avm007/cpp-build-box:latest
+    steps:
+      - checkout
+      - run:
+          name: "Building wallet-bot..."
+          command: |
+            mkdir build
+            cd build
+            cmake ..
+            make
