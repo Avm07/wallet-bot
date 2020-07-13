@@ -1,4 +1,4 @@
-[!build](https://img.shields.io/circleci/build/github/Avm07/wallet-bot/master?token=4b6d57cf37b110cb27076ec9669068be11a5f74a)
+[![CircleCI](https://circleci.com/gh/Avm07/wallet-bot.svg?style=svg)](https://circleci.com/gh/Avm07/wallet-bot)
 # wallet-bot
 
 Wallet-bot is a telegram bot which inform in channel about incoming documents from MongoDB using change stream.
