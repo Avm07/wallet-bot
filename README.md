@@ -1,3 +1,4 @@
+[![GitHub](https://img.shields.io/github/license/Avm07/wallet-bot)](https://github.com/Avm07/wallet-bot/LICENCE.md)
 [![CircleCI](https://circleci.com/gh/Avm07/wallet-bot.svg?style=svg)](https://circleci.com/gh/Avm07/wallet-bot)
 # wallet-bot
 
