@@ -13,9 +13,9 @@ MongoDbWrapper::MongoDbWrapper()
 
 void MongoDbWrapper::watch_change_stream()
 {
-    auto notifies_collection = m_db["notifies"];
+    auto collection = m_db[m_upcfg->get_db_col_name()];
 
-    mongocxx::change_stream stream = notifies_collection.watch();
+    mongocxx::change_stream stream = collection.watch();
 
     for (;;)
     {

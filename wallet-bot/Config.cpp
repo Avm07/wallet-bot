@@ -9,6 +9,7 @@ Config::Config()
       m_db_address(get_env_value("MONGO_DB_HOST", "localhost")),
       m_db_port(get_env_value("MONGO_DB_PORT", "27017")),
       m_db_name(get_env_value("MONGO_DB_NAME", "mydb")),
+      m_db_col_name(get_env_value("MONGO_DB_COL_NAME", "")),
       m_db_user_name(get_env_value("MONGO_DB_USR", "admin")),
       m_db_user_pwd(get_env_value("MONGO_DB_PWD", "admin"))
 {
@@ -42,6 +43,11 @@ std::string Config::get_db_port() const
 std::string Config::get_db_name() const
 {
     return m_db_name;
+}
+
+std::string Config::get_db_col_name() const
+{
+    return m_db_col_name;
 }
 
 std::string Config::get_db_user_name() const

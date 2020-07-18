@@ -16,6 +16,7 @@ namespace tlg_bot
         std::string get_db_address() const;
         std::string get_db_port() const;
         std::string get_db_name() const;
+        std::string get_db_col_name() const;
         std::string get_db_user_name() const;
         std::string get_db_user_pwd() const;
 
@@ -29,6 +30,7 @@ namespace tlg_bot
         std::string m_db_address;
         std::string m_db_port;
         std::string m_db_name;
+        std::string m_db_col_name;
         std::string m_db_user_name;
         std::string m_db_user_pwd;
     };
